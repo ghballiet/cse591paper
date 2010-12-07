@@ -1,0 +1,27 @@
+====
+OUTLINE
+====
+
+Intro
+- Dijkstra's View
+- Knowledge Representation
+- Planning
+
+Classical Planning
+
+Blocks World
+Hanoi
+Lin's Briefcase
+Circuit
+
+KR&R Approach
+
+A-Prolog
+Action Languages
+Planning Domains
+
+
+====
+SVN NOTES
+====
+svn up && svn add */*/* && svn ci -m "commit message"

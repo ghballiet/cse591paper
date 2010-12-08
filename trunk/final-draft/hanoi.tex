@@ -1,0 +1,156 @@
+{\scriptsize
+\begin{lstlisting}
+% ============================
+% OBJECTS
+% ============================
+
+#const n = 7.
+
+time(0..n).
+
+disc(1).
+disc(2).
+disc(3).
+
+peg(p1).
+peg(p2).
+peg(p3).
+
+location(X) :- peg(X).
+location(X) :- disc(X).
+
+% ============================
+% FLUENTS
+% ============================
+
+fluent(on(Disc,Location)) :-
+    disc(Disc),
+    location(Location),
+    Disc != Location.
+
+fluent(clear(Location)) :-
+    location(Location).
+
+% ============================
+% ACTIONS
+% ============================
+
+action(move(Disc,Source,Destination)) :-
+    disc(Disc),
+    location(Source),
+    location(Destination),
+    Source != Destination.
+
+% ============================
+% CAUSAL LAWS
+% ============================
+
+holds(on(Disc,Destination), T + 1) :-
+    occurs(move(Disc,Source,Destination), T),
+    disc(Disc),
+    location(Source),
+    location(Destination),
+    time(T).
+
+-holds(on(Disc,Source), T + 1) :-
+    occurs(move(Disc,Source,Destination), T),
+    disc(Disc),
+    location(Source),
+    location(Destination),
+    time(T).
+
+:- occurs(move(Disc,Source,Destination), T),
+   not holds(on(Disc,Source), T),
+   disc(Disc),
+   location(Source),
+   location(Destination),
+   time(T).
+
+:- occurs(move(Disc,Source,Destination), T),
+   not holds(clear(Disc), T),
+   disc(Disc),
+   location(Source),
+   location(Destination),
+   time(T).
+
+:- occurs(move(Disc,Source,Destination), T),
+   not holds(clear(Destination), T),
+   disc(Disc),
+   location(Source),
+   location(Destination),
+   time(T).
+
+:- occurs(move(Disc,Source,Destination), T),
+   disc(Destination),
+   Destination < Disc,
+   disc(Disc),
+   location(Source),
+   location(Destination),
+   time(T).
+
+-holds(clear(Location), T) :-
+    holds(on(Disc,Location), T),
+    location(Location),
+    disc(Disc),
+    time(T).
+
+holds(clear(Location), T) :-
+    not -holds(clear(Location), T),
+    location(Location),
+    time(T).
+
+% ============================
+% INERTIA AXIOMS
+% ============================
+
+holds(Fluent, T + 1) :-
+    holds(Fluent, T),
+    not -holds(Fluent, T + 1),
+    fluent(Fluent),
+    time(T).
+
+-holds(Fluent, T + 1) :-
+    -holds(Fluent, T),
+    not holds(Fluent, T + 1),
+    fluent(Fluent),
+    time(T).
+
+% ============================
+% INITIAL STATE
+% ============================
+
+holds(on(1,2), 0).
+holds(on(2,3), 0).
+holds(on(3,p1), 0).
+
+% ============================
+% GOAL SPECIFICATION
+% ============================
+
+goal(T) :-
+    holds(on(1,2), T),
+    holds(on(2,3), T),
+    holds(on(3,p3), T),
+    time(T).
+
+done :-
+    goal(T).
+
+:- not done.
+
+% ============================
+% PLANNING MODULE
+% ============================
+
+1{occurs(Action,T) : action(Action)}1 :-
+    not goal(T),
+    time(T).
+
+% ============================
+% SOLVER DIRECTIVES
+% ============================
+
+#hide.
+#show occurs(_,_).
+\end{lstlisting}
+}

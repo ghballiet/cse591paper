@@ -366,6 +366,165 @@ Time        : 0.000
   Solving   : 0.000
 \end{verbatim}
 
+\subsubsection{The Blocks World}
+
+The next domain we examine is the Blocks Worlds. In this domain an agent seeks to build a tower out of a set blocks. This domain makes full use of the full range of causal laws provided for in $\AL$. For the sake of space, the $\AL$ description of the system has not been included, however, a reading of the relevant causal laws in the A-Prolog representation will show that each type of law is used and follows the same representation scheme we have seen previously with Lin's Briefcase.
+
+\begin{lstlisting}[language=Prolog, caption=Blocks World Domain Representation in A-Prolog, label=lst:bworld-asp]
+% ============================
+% OBJECTS
+% ============================
+
+#const n = 3.
+
+time(0..n).
+
+block(a).
+block(b).
+block(c).
+block(d).
+
+table(t).
+
+location(X) :- block(X).
+location(X) :- table(X).
+
+% ============================
+% FLUENTS
+% ============================
+
+fluent(on(Block,Location)) :-
+    Block != Location,
+	block(Block),
+	location(Location).
+
+fluent(clear(Location)) :-
+    location(Location).
+
+% ============================
+% ACTIONS
+% ============================
+
+action(move(Block,Location)) :-
+    Block != Location,
+    block(Block),
+    location(Location).
+
+% ============================
+% CAUSAL LAWS
+% ============================
+
+holds(on(Block,Location), T + 1) :-
+    occurs(move(Block,Location), T),
+    block(Block),
+    location(L),
+    time(T).
+
+:- occurs(move(Block,Location), T),
+   not holds(clear(Location), T),
+   block(Block),
+   location(Location),
+   time(T).
+
+:- occurs(move(Block,Location), T),
+   not holds(clear(Block), T),
+   block(Block),
+   location(Location),
+   time(T).
+
+-holds(on(Block,Location2), T) :-
+    holds(on(Block,Location1), T),
+    Location1 != Location2,
+    block(Block),
+    location(Location1),
+    location(Location2),
+    time(T).
+
+-holds(clear(Block1), T) :-
+    holds(on(Block2,Block1), T),
+    block(Block1),
+    block(Block2),
+    time(T).
+
+holds(clear(Table), T) :-
+    table(Table),
+    time(T).
+
+holds(clear(Block), T) :-
+    not -holds(clear(Block), T),
+    block(Block),
+    time(T).
+
+% ============================
+% INERTIA AXIOMS
+% ============================
+
+holds(Fluent, T + 1) :-
+    holds(Fluent, T),
+    not -holds(Fluent, T + 1),
+    fluent(Fluent),
+    time(T).
+
+-holds(Fluent, T + 1) :-
+    -holds(Fluent, T),
+    not holds(Fluent, T + 1),
+    fluent(Fluent),
+    time(T).
+
+% ============================
+% INITIAL STATE
+% ============================
+
+holds(on(a,t), 0).
+holds(on(b,t), 0).
+holds(on(c,t), 0).
+holds(on(d,t), 0).
+
+% ============================
+% GOAL SPECIFICATION
+% ============================
+
+goal(T) :-
+	holds(on(d,c), T),
+	holds(on(c,b), T),
+	holds(on(b,a), T),
+	holds(on(a,t), T),
+	time(T).
+
+done :-
+	goal(T).
+
+:- not done.
+
+% ============================
+% PLANNING MODULE
+% ============================
+
+1{occurs(Action,T) : action(Action)}1 :-
+    not goal(T),
+    time(T).
+
+% ============================
+% SOLVER DIRECTIVES
+% ============================
+
+#hide.
+#show occurs(_,_).
+\end{lstlisting}
+
+\noindent Once again, using the clingo answer set solver we obtain the following single plan:
+\begin{verbatim}
+Answer: 1
+occurs(move(d,c),2) occurs(move(c,b),1) occurs(move(b,a),0) 
+SATISFIABLE
+
+Models      : 1     
+Time        : 0.000
+  Prepare   : 0.000
+  Prepro.   : 0.000
+  Solving   : 0.000
+\end{verbatim}
+
 \subsubsection{Electrical Circuit}
 
 We now turn our attention towards the representation of an electrical circuit domain. Such a domain is of interest due to the fact that there is essentially only a single action that an agent may perform, namely, the application of some input signals to the circuit. These signals must then be propagated throughout the entire circuit to obtain some output value.
@@ -488,7 +647,22 @@ h(val(3, 1), 0).
 #show h(_,_).
 \end{lstlisting}
 
+\noindent Once again using clingo, we can see how the signal propagates across the various levels of the circuit:
+\begin{verbatim}
+Answer: 1
+h(val(1,1),0) h(val(2,0),0) h(val(3,1),0) h(val(4,0),0) h(val(5,0),0) h(val(6,0),0) 
+SATISFIABLE
+
+Models      : 1     
+Time        : 0.000
+  Prepare   : 0.000
+  Prepro.   : 0.000
+  Solving   : 0.000
+\end{verbatim}
+
 \subsubsection{Towers of Hanoi}
+
+The last domain we consider is the Towers of Hanoi domain. This domain was chosen due to the similarity of the PDDL and A-Prolog representations. The PDDL representation allows one to simulate in convenient ``lossless'' way the information stored in a static causal law concerning whether a disc or peg becomes clear. It is also an interesting planning problem in its own right.
 
 \begin{lstlisting}[language=Prolog, caption=Towers of Hanoi Domain Representation in A-Prolog, label=lst:asp-hanoi]
 % ============================
@@ -645,7 +819,24 @@ done :-
 #show occurs(_,_).
 \end{lstlisting}
 
-\include{roles}
+\noindent Once again clingo gives us a plan for moving the disc to the destination peg:
+\begin{verbatim}
+Answer: 1
+occurs(move(1,p1,2),6) occurs(move(2,p2,3),5) occurs(move(1,2,p1),4)
+occurs(move(3,p1,p3),3) occurs(move(1,p3,2),2) occurs(move(2,3,p2),1)
+occurs(move(1,2,p3),0) 
+SATISFIABLE
+
+Models      : 1+    
+Time        : 0.030
+  Prepare   : 0.020
+  Prepro.   : 0.010
+  Solving   : 0.000
+\end{verbatim}
+
+\section{Conclusions}
+
+In keeping with Dijkstra's view of programming as the refinement of specification, we believe the approach taken by the knowledge representation and reasoning community to be more expressive. It has been shown to be capable of handling extremely robust domains such as the reaction control system of the space shuttle, \cite{usa}, and has been applied towards the task of \emph{conformant planning} as well \cite{conformant}. The central concept of reducing the task of planning to the computation of the answer sets of a logic program separates the quality and type of plans generated from the solver being used for their computation. The two become independent, and any improvements to the solving algorithm, have no effect on which plans are returned (as plans are simply the answer set of program). This is not the case in classical planning. In the classical planning approach the type and quality of plans produced are highly dependent on the type of solver being used. This makes it difficult to say what the actual \emph{meaning} of a PDDL domain representation actually is. It also makes it difficult to make general claims of the properties of PDDL domain description.
 
 \begin{thebibliography}{2}
 
@@ -685,6 +876,16 @@ Martin Gebser, Roland Kaminski, et.\,al.\,
 A User's Guide to gringo, clasp, clingo, and iclingo.
 2010.
 
+\bibitem{conformant}
+Michael Gelfond and Ricardo Morales. 
+Encoding Conformant Planning in A-Prolog. 
+In DRT'04, 2004.
+
+\bibitem{usa}
+Marcello Balduccini, Michael Gelfond, Monica Nogueira, and Richard Watson.
+Planning with the USA-Advisor. 
+In 3rd International NASA Workshop on Planning and Scheduling for Space, Sep 2002.
+
 \bibitem{Blum:1997vn}
 A.~Blum and M.~Furst.
 \newblock Fast planning through planning graph analysis.
@@ -697,20 +898,21 @@ B.~Bonet, G.~Loernics, and H.~Geffner.
 
 \bibitem{Bylander:1994kx}
 T.~Bylander.
-\newblock The computational complexity of propositional STRIPS planning.
+\newblock The computational complexity of propositional strips planning.
 \newblock {\em Artificial Intelligence}, 69(1-2):165--204, 1994.
 
 \bibitem{Hoffmann:2001fk}
 J.~Hoffmann.
-\newblock FF: The fast-forward planning system.
+\newblock Ff: The fast-forward planning system.
 \newblock {\em AI Magazine}, 22(3):57--62, 2001.
 
 \bibitem{Thiebaux:2003ys}
 S.~Thi{\'e}baux, J.~Hoffmann, and B.~Nebel.
-\newblock In defense of PDDL axioms.
+\newblock In defense of pddl axioms.
 \newblock {\em Artificial Intelligence}, 18:961--968, 2003.
 
-
 \end{thebibliography}
+
+\include{roles}
 
 \end{document}

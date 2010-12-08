@@ -1,0 +1,10 @@
+In order to test the PDDL code we wrote for each of our test domains, we needed to decide on a planner to use. We selected Fast-Forward (FF), because it was simple to compile and run on our systems, and it supported most of the features of PDDL we wanted to be able to take advantage of when encoding the test domains. 
+
+FF was the most successful automatic planner in the AIPS-2000 planning systems competition. However, the general idea behind FF was not new to the classical planning community - the basic principle is actually the same as that of the Heuristic Search Planner (HSP). FF executes a forward search in the state space, guided by a heuristic which is extracted from the domain description automatically. This function is extracted by relaxing the planning problem; a part of the specification (specifically, the delete lists of all actions) is ignored. 
+
+There are a number of details in which FF is different from its predecessor, HSP:
+\begin{enumerate}
+    \item FF makes use of a more sophisticated method of heuristic evaluation, which takes into account positive interactions between facts.
+    \item FF uses a different local search strategy; specifically, it is able to escape plateaus and local minima through the use of systematic search.
+    \item FF includes a mechanism which identifies those successors of a search node which appear to be (and usually are) most helpful in achieving the goal. 
+\end{enumerate}

@@ -14,4 +14,4 @@ Similarly, a problem-solving agent might be inefficient because of its inability
 
 Classical planning problems are represented using three formalisms: states, goals and actions. These constructs form the basis of the languages used to encode planning problems in such a way that planners can understand them and operate on them to search for plans. 
 
-States in classical planning problems 
+States in classical planning problems are represented by a conjunction of positive literals. Specifically, first-order propositional literals, which must be ground and function free. Classical planning makes use of the closed-world assumption, which states that any literals which are not explicitly enumerated as part of the state are false.

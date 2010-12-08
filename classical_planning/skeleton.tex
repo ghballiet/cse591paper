@@ -1,5 +1,35 @@
 \documentclass{article}
 \usepackage[top=1in,bottom=1in,left=1in,right=1in,includehead,includefoot,letterpaper]{geometry}
+\usepackage{listings}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{beramono}
+% ==========
+% = colors =
+% ==========
+\definecolor{LightGray}{gray}{.5}
+\definecolor{LighterGray}{gray}{.75}
+\definecolor{IdentifierGray}{gray}{.2}
+
+% ======================
+% = listing appearance =
+% ======================
+\lstset{
+basicstyle=\footnotesize\ttfamily,
+keywordstyle=\color{MidnightBlue},
+commentstyle=\color{LightGray}\itshape,
+stringstyle=\color{OliveGreen},
+emph={True,False,None},
+emphstyle=\color{RedOrange},
+identifierstyle=\color{IdentifierGray},
+numbers=left,
+numberstyle=\tiny\ttfamily\color{LighterGray},
+numbersep=10px,
+breaklines=true,
+breakatwhitespace=true,
+showstringspaces=false
+}
+
 \begin{document}
 \section{Classical Planning Overview}
 \subsection{Background}

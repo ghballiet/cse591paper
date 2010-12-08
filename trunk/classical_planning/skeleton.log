@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.9.7)  7 DEC 2010 19:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.9.7)  7 DEC 2010 19:29
 entering extended mode
  file:line:error style messages enabled.
  %&-line parsing enabled.
@@ -113,22 +113,64 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 (/usr/local/texlive/2009/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 )
+(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/concmath.sty
+Package: concmath 1999/03/10 v2.0b LaTeX package for Concrete math fonts
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ccr/m/n on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ccr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ccm/m/it on input line 44.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ccm/m/it on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 45.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ccsy/m/n on input line 45.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ccsy/m/n on input line 45.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ccex/m/n on input line 46.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ccex/m/n on input line 46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ccr/m/n --> OT1/ccr/bx/n on input line 47.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ccm/m/it --> OML/ccm/b/it on input line 48.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ccsy/m/n --> OMS/ccsy/b/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ccr/bx/n on input line 53.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ccr/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ccr/m/it on input line 54.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ccr/m/it on input line 54.
+)
 (./skeleton.aux)
 \openout1 = `skeleton.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for T1+ccr on input line 36.
+ (/usr/local/texlive/2009/texmf-dist/tex/latex/ccfonts/t1ccr.fd
+File: t1ccr.fd 1999/11/22 v1.0a (WaS)
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -174,11 +216,40 @@ LaTeX Font Info:    ... okay on input line 34.
 \MPscratchDim=\dimen116
 \MPnumerator=\count104
 \everyMPtoPDFconversion=\toks18
-) (./background.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+)
+LaTeX Font Info:    Font shape `T1/ccr/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/cmr/bx/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `T1/ccr/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmr/bx/n' tried instead on input line 38.
+ (./background.tex
+LaTeX Font Info:    Font shape `T1/ccr/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmr/bx/n' tried instead on input line 4.
+LaTeX Font Info:    Try loading font information for OT1+ccr on input line 6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/ot1ccr.fd
+File: ot1ccr.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    Try loading font information for OML+ccm on input line 6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/omlccm.fd
+File: omlccm.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    Try loading font information for OMS+ccsy on input line 6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/omsccsy.fd
+File: omsccsy.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    Try loading font information for OMX+ccex on input line 6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/omxccex.fd
+File: omxccex.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <10> on input line 6.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <5> on input line 6.
 ) (./pddl.tex) (./ff.tex) (./domains.tex
 (/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
@@ -205,30 +276,30 @@ LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <8> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 7.19995pt on input line 1.
- [2]) (./briefcase-domain.pddl) [3]
-(./circuit-domain.pddl [4])) [5] (./skeleton.aux) ) 
+ [2]) (./briefcase-domain.pddl [3])
+(./circuit-domain.pddl [4] [5])) [6] (./skeleton.aux) ) 
 Here is how much of TeX's memory you used:
- 3473 strings out of 493773
- 47134 string characters out of 3145347
- 173728 words of memory out of 3000000
- 6743 multiletter control sequences out of 15000+200000
- 11687 words of font info for 28 fonts, out of 3000000 for 9000
+ 3584 strings out of 493773
+ 49902 string characters out of 3145347
+ 175083 words of memory out of 3000000
+ 6825 multiletter control sequences out of 15000+200000
+ 15489 words of font info for 39 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 31i,6n,43p,681b,1866s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2009/tex
-mf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2009/texmf-dist/fonts/e
-nc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2009/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/
-public/bera/fvmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/b
-era/fvmro8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/cm-super
-/sfbx1000.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/cm-super/s
-fbx1200.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfb
-x1440.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfrm1
-000.pfb>
-Output written on skeleton.pdf (5 pages, 103147 bytes).
+ 31i,6n,43p,812b,1866s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2009
+/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/glen/.texlive2009/texmf-var/fo
+nts/pk/ljfour/public/concmath-fonts/xccsy7.600pk> </Users/glen/.texlive2009/tex
+mf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi10.600pk>{/usr/local/texlive/
+2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/20
+09/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2009/texmf
+-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/local/texlive/2009/texmf-dist/f
+onts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2009/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2009/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2009/texmf-dist/fonts/t
+ype1/public/cm-super/sform10.pfb>
+Output written on skeleton.pdf (6 pages, 93137 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,8 +21,11 @@
 \usepackage[scaled]{beramono}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage[parfill]{parskip}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage[top=1in,bottom=1in,left=1in,right=1in,includehead,includefoot,letterpaper]{geometry}
+\usepackage{tabularx}
+\usepackage{booktabs}
 
 % ==========
 % = colors =
@@ -92,6 +95,10 @@ frame=single
 \newcommand{\observesu}[2]{\ensuremath{#1 \: \mathbf{observes} \: #2}}
 \newcommand{\observesp}[3]{\ensuremath{#1 \: \mathbf{partially \: observes} \: #2 \: \mathbf{if} \: #3}}
 
+% =====================================
+% = bold font fix when using concrete =
+% =====================================
+\renewcommand{\bfdefault}{sbc}
 
 \begin{document}
 \maketitle
@@ -638,6 +645,8 @@ done :-
 #show occurs(_,_).
 \end{lstlisting}
 
+\include{roles}
+
 \begin{thebibliography}{2}
 
 \bibitem{GL88}
@@ -688,17 +697,17 @@ B.~Bonet, G.~Loernics, and H.~Geffner.
 
 \bibitem{Bylander:1994kx}
 T.~Bylander.
-\newblock The computational complexity of propositional strips planning.
+\newblock The computational complexity of propositional STRIPS planning.
 \newblock {\em Artificial Intelligence}, 69(1-2):165--204, 1994.
 
 \bibitem{Hoffmann:2001fk}
 J.~Hoffmann.
-\newblock Ff: The fast-forward planning system.
+\newblock FF: The fast-forward planning system.
 \newblock {\em AI Magazine}, 22(3):57--62, 2001.
 
 \bibitem{Thiebaux:2003ys}
 S.~Thi{\'e}baux, J.~Hoffmann, and B.~Nebel.
-\newblock In defense of pddl axioms.
+\newblock In defense of PDDL axioms.
 \newblock {\em Artificial Intelligence}, 18:961--968, 2003.
 
 

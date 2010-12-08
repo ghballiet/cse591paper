@@ -8,3 +8,5 @@ There are a number of details in which FF is different from its predecessor, HSP
     \item FF uses a different local search strategy; specifically, it is able to escape plateaus and local minima through the use of systematic search.
     \item FF includes a mechanism which identifies those successors of a search node which appear to be (and usually are) most helpful in achieving the goal. 
 \end{enumerate}
+
+The main difficulty which results from viewing domain independent planning as heuristic search is the automated derivation of the heuristic function. A common approach to this problem (which is adopted here) is to relax the general problem $\mathcal{P}$ into a simpler problem $\mathcal{P}^\prime$ which can be efficiently solved. Given a search state in the original problem, $\mathcal{P}$, the solution length of the same state $\mathcal{P}^\prime$ may be used to estimate the difficulty of $\mathcal{P}$. 

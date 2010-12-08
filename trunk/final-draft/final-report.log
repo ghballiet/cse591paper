@@ -1,23 +1,24 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.9.7)  8 DEC 2010 11:28
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  8 DEC 2010 11:49
 entering extended mode
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **final-report.tex
 (./final-report.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
-abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
-h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
-greek, greek, hungarian, icelandic, assamese, bengali, gujarati, hindi, kannada
-, malayalam, marathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, i
-rish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, b
-okmal, nynorsk, polish, portuguese, romanian, russian, sanskrit, serbian, slova
-k, slovenian, spanish, swedish, turkish, turkmen, ukenglish, ukrainian, upperso
-rbian, welsh, loaded.
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,8 +33,8 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/listings.sty
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
@@ -50,35 +51,35 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count92
 \lst@maxwidth=\dimen106
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count93
 \lst@skipnumbers=\count94
 \lst@framebox=\box27
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen107
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen108
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
@@ -119,17 +120,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amscls/amsthm.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -141,7 +142,7 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks26
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/ccfonts/ccfonts.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/ccfonts/ccfonts.sty
 Package: ccfonts 2000/06/30 v1.1 (WaS)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -174,7 +175,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ccr/m/it on input line 83.
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/euler/euler.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/euler/euler.sty
 Package: euler 1995/03/05 v2.5
 
 Package: `euler' v2.5 <1995/03/05> (FJ and FMi)
@@ -271,50 +272,50 @@ LaTeX Font Info:    Redeclaring math symbol \sharp on input line 209.
 LaTeX Font Info:    Redeclaring math symbol \smile on input line 210.
 LaTeX Font Info:    Redeclaring math symbol \frown on input line 211.
 LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
-) (/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
 \Gread@gobject=\count107
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/latex/bera/beramono.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks27
 \inpenc@posthook=\toks28
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -464,7 +465,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -495,7 +496,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -519,13 +520,13 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2010/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
-(/usr/local/texlive/2009/texmf-dist/tex/generic/babel/english.ldf
+(/usr/local/texlive/2010/texmf-dist/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-(/usr/local/texlive/2009/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2010/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count108
 \U@D=\dimen118
@@ -534,28 +535,28 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/latex/ltxmisc/parskip.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/ltxmisc/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(/usr/local/texlive/2009/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/03/13 v5.3 Page Geometry
+(/usr/local/texlive/2010/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/07/13 v5.5 Page Geometry
 
-(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
 )
-(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
@@ -572,10 +573,10 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks29
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen127
 \extrarowheight=\dimen128
@@ -591,7 +592,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count112
 \TX@ftn=\toks31
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen134
 \lightrulewidth=\dimen135
@@ -635,7 +636,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Try loading font information for T1+ccr on input line 103.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/ccfonts/t1ccr.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/ccfonts/t1ccr.fd
 File: t1ccr.fd 1999/11/22 v1.0a (WaS)
 )
 \c@lstlisting=\count123
@@ -671,7 +672,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/ccr/m/it --> OT1/ccr/sbc/it on input line 103.
 
-(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
 \scratchdimen=\dimen147
@@ -683,14 +684,60 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 \MPscratchDim=\dimen148
 \MPnumerator=\count128
 \everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
 * paper: letterpaper
-* layout: letterpaper
-* switch(es): includehead includefoot 
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
@@ -702,6 +749,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 * \topmargin=0.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=65.0pt
 * \marginparsep=11.0pt
@@ -714,28 +762,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
-* (1in=72.27pt, 1cm=28.453pt)
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Try loading font information for OT1+ccr on input line 104.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/ot1ccr.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/concmath/ot1ccr.fd
 File: ot1ccr.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    Try loading font information for U+eur on input line 104.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/ueur.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2009/06/22 v3.00 Euler Roman
 )
 LaTeX Font Info:    Try loading font information for OMS+ccsy on input line 104
 .
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/omsccsy.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/concmath/omsccsy.fd
 File: omsccsy.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    Try loading font information for OMX+ccex on input line 104
 .
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/omxccex.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/concmath/omxccex.fd
 File: omxccex.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    External font `xccex10' loaded for size
@@ -746,17 +794,17 @@ LaTeX Font Info:    External font `xccex10' loaded for size
 (Font)              <6> on input line 104.
 LaTeX Font Info:    Try loading font information for U+euf on input line 104.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/ueuf.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2009/06/22 v3.00 Euler Fraktur
 )
 LaTeX Font Info:    Try loading font information for U+eus on input line 104.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/ueus.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
 )
 LaTeX Font Info:    Try loading font information for U+euex on input line 104.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/ueuex.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2009/06/22 v3.00 Euler extra symbols
 )
 LaTeX Font Info:    Font shape `T1/ccr/sbc/n' in size 14.4 not available
@@ -777,45 +825,44 @@ LaTeX Font Info:    External font `xccex10' loaded for size
 
  [1
 
-{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ccr/sbc/n' in size 12 not available
 (Font)              external font `ecssdc10' used on input line 119.
  (../classical_planning/background.tex [2]) [3]
 (../classical_planning/pddl.tex) (../classical_planning/ff.tex [4])
-(../classical_planning/domains.tex [5]
-<../images/briefcase.pdf, id=23, 321.2pt x 266.9975pt>
-File: ../images/briefcase.pdf Graphic file (type pdf)
-
-<use ../images/briefcase.pdf>
-(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstlang1.sty
+(../classical_planning/domains.tex
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstlang2.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2004/09/05 1.3 listings language file
-)
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 10.
+) [5]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 3.
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/bera/t1fvm.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 10.
+(Font)              scaled to size 7.19995pt on input line 3.
 
-(./briefcase-domain.pddl
+(./blocks-domain.pddl
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 1.
+) [6]
+<../images/circuit.pdf, id=28, 295.1025pt x 174.6525pt>
+File: ../images/circuit.pdf Graphic file (type pdf)
+
+<use ../images/circuit.pdf> (./circuit-domain.pddl
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <8> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 7.19995pt on input line 1.
-) [6 <../images/briefcase.pdf>]
-(./briefcase-problem.pddl) (./blocks-domain.pddl [7]) (./blocks-problem.pddl)
-<../images/circuit.pdf, id=65, 295.1025pt x 174.6525pt>
-File: ../images/circuit.pdf Graphic file (type pdf)
+ [7 <../images/circuit.pdf>]) [8] <../images/briefcase.pdf, id=70, 321.2pt x 26
+6.9975pt>
+File: ../images/briefcase.pdf Graphic file (type pdf)
 
-<use ../images/circuit.pdf> [8] (./circuit-domain.pddl [9 <../images/circuit.pd
-f>] [10]) (./circuit-problem.pddl) [11] (./hanoi-domain.pddl)
-(./hanoi-problem.pddl [12])) [13]
+<use ../images/briefcase.pdf> (./briefcase-domain.pddl) [9 <../images/briefcase
+.pdf>] (./hanoi-domain.pddl)) [10]
 LaTeX Font Info:    Font shape `OT1/ccr/sbc/n' in size <10> not available
 (Font)              Font shape `OT1/cmss/sbc/n' tried instead on input line 148
 .
@@ -826,81 +873,82 @@ LaTeX Font Info:    Font shape `OT1/ccr/sbc/n' in size <5> not available
 (Font)              Font shape `OT1/cmss/sbc/n' tried instead on input line 148
 .
 
-<dynamic-law.pdf, id=119, 309.155pt x 112.42pt>
+<dynamic-law.pdf, id=109, 309.155pt x 112.42pt>
 File: dynamic-law.pdf Graphic file (type pdf)
- <use dynamic-law.pdf>
-<static-law.pdf, id=120, 309.155pt x 112.42pt>
+ <use dynamic-law.pdf> [11 <./dynamic-law.pdf>] <static-law.pdf, id=144, 309.15
+5pt x 112.42pt>
 File: static-law.pdf Graphic file (type pdf)
- <use static-law.pdf> [14 <./dynamic-law.pdf>] [15 <./static-law.pdf>]
+
+<use static-law.pdf> [12 <./static-law.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ccr on input line 216.
 
 
-(/usr/local/texlive/2009/texmf-dist/tex/latex/concmath/omsccr.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/concmath/omsccr.fd
 File: omsccr.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
 LaTeX Font Info:    Font shape `OMS/ccr/m/n' in size <10> not available
 (Font)              Font shape `OMS/ccsy/m/n' tried instead on input line 216.
-
-<briefcase.pdf, id=182, 321.2pt x 266.9975pt>
+ [13]
+<briefcase.pdf, id=177, 321.2pt x 266.9975pt>
 File: briefcase.pdf Graphic file (type pdf)
- <use briefcase.pdf> [16 <./briefcase.pdf>] (/usr/local/texlive/2009/texmf-dist
-/tex/latex/listings/lstlang1.sty
+ <use briefcase.pdf>
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstlang2.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2004/09/05 1.3 listings language file
-) [17]
-[18]
+) [14 <./briefcase.pdf>] [15]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 357.
- [19] [20] [21] <circuit.pdf, id=234, 295.1025pt x 174.6525pt>
+ [16] [17] [18]
+<circuit.pdf, id=226, 295.1025pt x 174.6525pt>
 File: circuit.pdf Graphic file (type pdf)
-
-<use circuit.pdf> [22 <./circuit.pdf>] [23] [24] [25] [26] [27] [28] [29]
+ <use circuit.pdf> [19] [20 <./circuit.pdf>] [21] [22] [23] [24] [25] [26]
 \openout2 = `roles.aux'.
 
-
-(./roles.tex)
-Overfull \hbox (30.0pt too wide) in paragraph at lines 19--918
+ (./roles.tex)
+Overfull \hbox (30.0pt too wide) in paragraph at lines 19--922
 [] 
  []
 
-[30
+[27
 
 ] (./final-report.aux (./roles.aux)) ) 
 Here is how much of TeX's memory you used:
- 6266 strings out of 493773
- 80333 string characters out of 3145347
- 215712 words of memory out of 3000000
- 9358 multiletter control sequences out of 15000+200000
+ 6606 strings out of 493747
+ 86648 string characters out of 3143546
+ 219981 words of memory out of 3000000
+ 9683 multiletter control sequences out of 15000+200000
  28075 words of font info for 88 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 30i,9n,43p,1308b,1762s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2009/texmf-dist/fonts
-/enc/dvips/cm-super/cm-super-t1.enc} </Users/glen/.texlive2009/texmf-var/fonts/
-pk/ljfour/public/concrete/ccr6.600pk> </Users/glen/.texlive2009/texmf-var/fonts
-/pk/ljfour/public/concrete/ccr7.600pk> </Users/glen/.texlive2009/texmf-var/font
-s/pk/ljfour/public/concmath-fonts/xccsy10.720pk>{/usr/local/texlive/2009/texmf-
-dist/fonts/enc/dvips/base/8r.enc} </Users/glen/.texlive2009/texmf-var/fonts/pk/
-ljfour/public/concmath-fonts/xccsy7.600pk> </Users/glen/.texlive2009/texmf-var/
-fonts/pk/ljfour/public/concmath-fonts/xccsy10.600pk></usr/local/texlive/2009/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmssdc10.pfb></usr/local/texlive/2009/t
-exmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/local/texlive/2009
-/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/20
-09/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2
-009/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive
-/2009/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texliv
-e/2009/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texl
-ive/2009/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2009
-/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/local/texlive/2009/texmf-
-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2009/texmf-dist/fonts
-/type1/public/cm-super/sform10.pfb></usr/local/texlive/2009/texmf-dist/fonts/ty
-pe1/public/cm-super/sform8.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/
-public/cm-super/sfoti10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/pub
-lic/cm-super/sfssdc10.pfb>
-Output written on final-report.pdf (30 pages, 485984 bytes).
+ 38i,9n,43p,1308b,1762s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2010/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-t1.enc} </Users/gregory/Library/texlive/2010/texmf
+-var/fonts/pk/ljfour/public/concrete/ccr6.600pk> </Users/gregory/Library/texliv
+e/2010/texmf-var/fonts/pk/ljfour/public/concrete/ccr7.600pk> </Users/gregory/Li
+brary/texlive/2010/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720p
+k>{/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/greg
+ory/Library/texlive/2010/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy7
+.600pk> </Users/gregory/Library/texlive/2010/texmf-var/fonts/pk/ljfour/public/c
+oncmath-fonts/xccsy10.600pk></usr/local/texlive/2010/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmssdc10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pu
+blic/amsfonts/euler/euex10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/
+public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
+1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2010/texmf-dist/fonts/typ
+e1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2010/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2010/texmf-dist/fonts/
+type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2010/texmf-dist/font
+s/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/
+public/bera/fvmro8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/
+lm/lmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/s
+form10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfor
+m8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfoti10.
+pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/cm-super/sfssdc10.pf
+b>
+Output written on final-report.pdf (27 pages, 448289 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

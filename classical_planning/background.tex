@@ -14,4 +14,9 @@ Similarly, a problem-solving agent might be inefficient because of its inability
 
 Classical planning problems are represented using three formalisms: states, goals and actions. These constructs form the basis of the languages used to encode planning problems in such a way that planners can understand them and operate on them to search for plans. 
 
-States in classical planning problems are represented by a conjunction of positive literals. Specifically, first-order propositional literals, which must be ground and function free. Classical planning makes use of the closed-world assumption, which states that any literals which are not explicitly enumerated as part of the state are false.
+States in classical planning problems are represented by a conjunction of positive literals. Specifically, ground, first-order propositional literals. Classical planning makes use of the closed-world assumption, which states that any literals which are not explicitly enumerated as part of the state are false.
+
+A goal in a classical planning problem is a partially specified state, represented by a conjunction of positive ground literals. For some propositional state $s$, we say that $s$ satisfies a goal $g$ if all of the atoms in $g$ are in $s$ (where $s$ may also contain other atoms).
+
+Actions are specified with respect to their preconditions and effects. The precondition of an action is a conjunction of positive literals which must be true in a state before the action can be executed. The effect of an action is a conjunction of literals which occur as a result of executing the action. For some literal $P$ in the effect, $P$ is asserted to be true in the resulting state; likewise, if $\lnot P$ is in the effect, $P$ is asserted to be false in the resulting state. It is worth noting that this action representation avoids the frame problem by leaving every literal not in an action's effect unchanged as a result of executing that action. 
+

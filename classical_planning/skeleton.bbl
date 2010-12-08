@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{Blum:1997vn}
+A.~Blum and M.~Furst.
+\newblock Fast planning through planning graph analysis.
+\newblock {\em Artificial Intelligence}, 90(1-2):279--298, 1997.
+
+\bibitem{Bonet:1997uq}
+B.~Bonet, G.~Loernics, and H.~Geffner.
+\newblock A robust and fast action selection mechanism for planning.
+\newblock In {\em AAAI-97}, pages 714--719. MIT Press, 1997.
+
+\bibitem{Bylander:1994kx}
+T.~Bylander.
+\newblock The computational complexity of propositional strips planning.
+\newblock {\em Artificial Intelligence}, 69(1-2):165--204, 1994.
+
+\bibitem{Hoffmann:2001fk}
+J.~Hoffmann.
+\newblock Ff: The fast-forward planning system.
+\newblock {\em AI Magazine}, 22(3):57--62, 2001.
+
+\bibitem{Thiebaux:2003ys}
+S.~Thi{\'e}baux, J.~Hoffmann, and B.~Nebel.
+\newblock In defense of pddl axioms.
+\newblock {\em Artificial Intelligence}, 18:961--968, 2003.
+
+\end{thebibliography}

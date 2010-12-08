@@ -1,4 +1,10 @@
 \documentclass{article}
+% ========================
+% = document information =
+% ========================
+\title{An Overview of Two Approaches for Knowledge Representation and Reasoning in the Context of Planning}
+\author{Gregory Gelfond and Glen Hunt}
+\date{\today}
 
 % =================================
 % various useful packages
@@ -12,8 +18,38 @@
 \usepackage{euler}
 \usepackage{graphicx}
 \usepackage[T1]{fontenc}
+\usepackage[scaled]{beramono}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in,includehead,includefoot,letterpaper]{geometry}
+
+% ==========
+% = colors =
+% ==========
+\definecolor{LightGray}{gray}{.5}
+\definecolor{LighterGray}{gray}{.75}
+\definecolor{IdentifierGray}{gray}{.2}
+
+% ======================
+% = listing appearance =
+% ======================
+\lstset{
+basicstyle=\footnotesize\ttfamily,
+keywordstyle=\color{MidnightBlue},
+commentstyle=\color{LightGray}\itshape,
+stringstyle=\color{OliveGreen},
+emph={True,False,None},
+emphstyle=\color{RedOrange},
+identifierstyle=\color{IdentifierGray},
+numbers=left,
+numberstyle=\tiny\ttfamily\color{LighterGray},
+numbersep=10px,
+breaklines=true,
+breakatwhitespace=true,
+showstringspaces=false,
+frame=single
+}
 
 % =================================
 % mathematical notation
@@ -58,6 +94,7 @@
 
 
 \begin{document}
+\maketitle
 
 \section{Introduction}
 
@@ -68,6 +105,19 @@ This is also a central view taken by many members of what has been termed: the `
 This central view does not appear to be shared by the ``Classical Planning'' community, given its use of a single language, \emph{PDDL}, which was ``originally developed by the AIPS-98 Competition Committee for use in defining problem domains.''
 
 This difference in first principles leads to some interesting consequences which we hope to explore to some extent in this paper. The rest of this paper is structured as follows: an overview of the classical planning approach will be given in the context of four different planning domains, The Blocks World, Towers of Hanoi, Lin's Briefcase, and an Electrical Circuit. Once this has been, a similar overview of the knowledge representation and reasoning approaches, including descriptions of the action language $\AL$, followed by the logic programming language of A-Prolog. Once this has been covered, representations of the aforementioned domains will be presented.
+
+\section{Classical Planning Overview}
+\subsection{Background}
+\input{../classical_planning/background}
+
+\subsection{PDDL}
+\input{../classical_planning/pddl}
+
+\subsection{FF Planner}
+\input{../classical_planning/ff}
+
+\subsection{Planning Domain Examples}\label{sub:planning_domain_examples}
+\input{../classical_planning/domains}
 
 \section{The Knowledge Representation and Reasoning Approach}
 
@@ -189,8 +239,7 @@ Once we have the transition fixed, we represent in in $\AL$ as follows:
 
 With our domain description in place, we translate the above laws and add some additional domain related information to obtain the following A-Prolog program:
 
-{\scriptsize
-\begin{lstlisting}
+\begin{lstlisting}[language=Prolog, caption=Lin's Briefcase Domain Description in A-Prolog, label=lst:asp-briefcase]
 % ============================
 % OBJECTS
 % ============================
@@ -294,7 +343,6 @@ done :-
 #hide.
 #show occurs(_,_).
 \end{lstlisting}
-}
 
 \noindent Utilizing the clingo answer set solver we obtain the following two plans (this is due to the fact that the planning module is written in such a way as to only look for sequential plans, parallel plans may be supported through a minor modification):
 \begin{verbatim}
@@ -324,8 +372,7 @@ Consider the electrical circuit shown in Figure~\ref{circuit}. Once a signal has
     \label{circuit}
 \end{figure}
 
-{\scriptsize
-\begin{lstlisting}
+\begin{lstlisting}[language=Prolog, caption=Electrical Circuit Domain Representation in A-Prolog, label=lst:asp-circuit]
 % ============================
 % OBJECTS
 % ============================
@@ -433,12 +480,10 @@ h(val(3, 1), 0).
 #hide.
 #show h(_,_).
 \end{lstlisting}
-}
 
 \subsubsection{Towers of Hanoi}
 
-{\scriptsize
-\begin{lstlisting}
+\begin{lstlisting}[language=Prolog, caption=Towers of Hanoi Domain Representation in A-Prolog, label=lst:asp-hanoi]
 % ============================
 % OBJECTS
 % ============================
@@ -592,7 +637,6 @@ done :-
 #hide.
 #show occurs(_,_).
 \end{lstlisting}
-}
 
 \begin{thebibliography}{2}
 
@@ -631,6 +675,32 @@ AMAI, 25(3,4), 1999.
 Martin Gebser, Roland Kaminski, et.\,al.\,
 A User's Guide to gringo, clasp, clingo, and iclingo.
 2010.
+
+\bibitem{Blum:1997vn}
+A.~Blum and M.~Furst.
+\newblock Fast planning through planning graph analysis.
+\newblock {\em Artificial Intelligence}, 90(1-2):279--298, 1997.
+
+\bibitem{Bonet:1997uq}
+B.~Bonet, G.~Loernics, and H.~Geffner.
+\newblock A robust and fast action selection mechanism for planning.
+\newblock In {\em AAAI-97}, pages 714--719. MIT Press, 1997.
+
+\bibitem{Bylander:1994kx}
+T.~Bylander.
+\newblock The computational complexity of propositional strips planning.
+\newblock {\em Artificial Intelligence}, 69(1-2):165--204, 1994.
+
+\bibitem{Hoffmann:2001fk}
+J.~Hoffmann.
+\newblock Ff: The fast-forward planning system.
+\newblock {\em AI Magazine}, 22(3):57--62, 2001.
+
+\bibitem{Thiebaux:2003ys}
+S.~Thi{\'e}baux, J.~Hoffmann, and B.~Nebel.
+\newblock In defense of pddl axioms.
+\newblock {\em Artificial Intelligence}, 18:961--968, 2003.
+
 
 \end{thebibliography}
 
